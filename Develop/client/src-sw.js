@@ -39,6 +39,11 @@ registerRoute(
       new CacheableResponsePlugin({
         statuses: [0, 200],
       }),
+      //nneds work: do i need this here?
+      new ExpirationPlugin({
+				maxEntries: 60,
+				maxAgeSeconds: 30 * 24 * 60 * 60,
+			}),
     ],
   })
 );
