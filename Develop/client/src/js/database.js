@@ -12,7 +12,7 @@ const initdb = async () =>
     },
   });
 
-// TODO: Add logic to a method that accepts some content and adds it to the database
+// TODO: Add logic to a method that accepts some content and adds it to the database -done
 export const putDb = async (content) => {
    // Create a connection to the database and picked the version we want to use
   const jateDb = await openDB('jate', 1);
