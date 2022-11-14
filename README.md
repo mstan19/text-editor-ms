@@ -11,9 +11,11 @@
 -[Depolyment](#depolyment)
 
 ## Description of the Project
-The purpose of the application is to build API for a social network. This dynamic application allows users to post their thoughts and add friends. Each user has a username and valid email. Also, users can react to other users' thoughts; this is called reaction. This is done using HTTP requests: get, post, put, and delete when using user and thought models. If the user is deleted, then all of their assocaited thoughts will be deleted as well. This application uses moment to create the date when a user posts a thought or reaction. 
+The purpose of the application is to build Progressive Web Application (PWA). This dynamic application allows users to write in the text editor called JATE.
+
+Upon creating this PWD, several devDependencies were used to improve optimization by bundling files together. Webpack is a static module bundler. Css loader and style loader bundles css. Babel allows older browser to read our ES6 code. HTML webpack plugin helps automate and generate HTML in the dist directory. Concurrently is a npm package that runs two node process from the same terminal. IDB is a dependency for client-side storage of significant amounts of structured data.
  
-This application uses Node.js, MongoDB, Mongoose, Moment, and Express to run the application. This application requires you to understand package.json and its node_modules. In additon to that, gitignore file is important to use so certain folders and files are not upload to GitHub. For example, node_modules should not be uploaded to GitHub since this folder gets created during the installition process. Lastly, this project stands out since the application has its own server and can effectively retrieve data from Mongo's database called social media database.
+This application uses Node.js, IDB, and Express to run the application. This application requires you to understand package.json and its node_modules. In additon to that, gitignore file is important to use so certain folders and files are not upload to GitHub. For example, node_modules should not be uploaded to GitHub since this folder gets created during the installition process. With a simple installation, this PWA focuses on optimaization and works offline given that the application has client server worker, server and manifest.json.
 
 ## Installation
 To create this project, follow these several steps. This application uses several packages, such as Node.js, IDB (version 6.1.2), and Express (version 4.18.1). Step one, download Node.js. Next go to the terminal of the index.js and type this command ```npm install```. This creates package.json file and its dependencies. 
