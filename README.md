@@ -1,5 +1,4 @@
 # text-editor-ms
-# social-network-api-ms
 
 ## Table of Contents
 -[Description](#description) 
@@ -25,7 +24,9 @@ To use this application, open the terminal, respective to the file. Run the ```n
 
 This is what the Social Network API's database looks like.
 
-![Social Network API mock-up](./assets/images/mockuppic.png)
+![Text Editor Manifest mock-up](Develop/client/src/images/manifest.png)
+![Text Editor Service Worker mock-up](Develop/client/src/images/sw.png)
+![Text Editor Indexed DB mock-up](Develop/client/src/images/indexeddb.png)
 
 ## License
 This application does not require any licenses.
@@ -43,4 +44,4 @@ For more information about this application, please email me at melissastan91@gm
 ## Depolyment
 Click on this link for deployed application
 https://github.com/mstan19/social-network-api-ms
-needs heroku link
+Needs heroku link
