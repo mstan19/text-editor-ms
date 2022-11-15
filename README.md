@@ -45,5 +45,7 @@ For more information about this application, please email me at melissastan91@gm
 
 ## Depolyment
 Click on this link for deployed application
-https://github.com/mstan19/social-network-api-ms
-Needs heroku link
+https://jate-text-editor-ms.herokuapp.com/
+
+## Repo
+https://github.com/mstan19/text-editor-ms
