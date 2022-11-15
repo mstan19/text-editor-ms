@@ -9,11 +9,12 @@
 -[Tests](#tests) 
 -[Questions](#questions) 
 -[Depolyment](#depolyment)
+-[Repo](#repo)
 
 ## Description of the Project
 The purpose of the application is to build Progressive Web Application (PWA). This dynamic application allows users to write in the text editor called JATE.
 
-Upon creating this PWD, several devDependencies were used to improve optimization by bundling files together. Webpack is a static module bundler. Css loader and style loader bundles css. Babel allows older browser to read our ES6 code. HTML webpack plugin helps automate and generate HTML in the dist directory. Concurrently is a npm package that runs two node process from the same terminal. IDB is a dependency for client-side storage of significant amounts of structured data.
+Upon creating this PWA, several devDependencies were used to improve optimization by bundling files together. Webpack is a static module bundler. Css loader and style loader bundles css. Babel allows older browser to read our ES6 code. HTML webpack plugin helps automate and generate HTML in the dist directory. Concurrently is a npm package that runs two node process from the same terminal. IDB is a dependency for client-side storage of structured data.
  
 This application uses Node.js, IDB, and Express to run the application. This application requires you to understand package.json and its node_modules. In additon to that, gitignore file is important to use so certain folders and files are not upload to GitHub. For example, node_modules should not be uploaded to GitHub since this folder gets created during the installition process. With a simple installation, this PWA focuses on optimaization and works offline given that the application has client server worker, server and manifest.json.
 
@@ -26,9 +27,9 @@ To use this application, open the terminal, respective to the file. Run the ```n
 
 This is what the Text Editor:JATE looks like.
 
-![Text Editor Manifest mock-up](Develop/client/src/images/manifest.png)
-![Text Editor Service Worker mock-up](Develop/client/src/images/sw.png)
-![Text Editor Indexed DB mock-up](Develop/client/src/images/indexeddb.png)
+![Text Editor Manifest mock-up](client/src/images/manifest.png)
+![Text Editor Service Worker mock-up](client/src/images/sw.png)
+![Text Editor Indexed DB mock-up](client/src/images/indexeddb.png)
 
 ## License
 This application does not require any licenses.
@@ -37,7 +38,7 @@ This application does not require any licenses.
 If you would like to contribute to this project, please email me. My email can be found in the Questions section.
 
 ## Tests
-Currently, there is no tests for this project.
+Currently, there are no tests for this project.
 
 ## Questions
 
